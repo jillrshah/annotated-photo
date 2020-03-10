@@ -36,6 +36,7 @@ p {
 }
 
 .container.photo {
+    max-width: 800px;
     padding: 0;
     position: relative;
 }
@@ -95,6 +96,51 @@ img {
     content: "\f00d";
 }
 
+.dot.orange {
+    background-color: rgba(255, 133, 25, 0.65);
+}
+
+.dot.blue {
+    background-color: rgba(0, 93, 255, 0.65);
+}
+
+.dot.green {
+    background-color: rgba(12, 232, 196, 0.65);
+}
+
+.dot.yellow {
+    background-color: rgba(245, 215, 110, 0.65);
+}
+
+.dot.purple {
+    background-color: rgba(190, 144, 212, .65);
+}
+
+.dot.turnstile {
+    right: 50%;
+    bottom: 55%;
+}
+
+.dot.OMNY {
+    top: 43%;
+    right: 30%;
+}
+
+.dot.swipe {
+    bottom: 65%;
+    right: 30%;
+}
+
+.dot.reader {
+    top: 30%;
+    left: 25%;
+}
+
+.dot.token {
+    bottom: 62%;
+    right: 35%;
+}
+
 /*****************************
 * Dot customizations go here
 ******************************/
@@ -107,6 +153,8 @@ img {
     border-radius: 0;
     border: 0;
     z-index: 2;
+    left: 0;
+    top: 0;
 }
 
 .dot.active .inner {
